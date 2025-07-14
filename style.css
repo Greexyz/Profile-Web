@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigasi {
+    background-color: rgb(246, 107, 107);
+    width: 100%;
+    height: 70px;
+    color: rgb(67, 67, 67);
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 1050px;
+    padding-top: 25px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+}
+
+.menu ul li a:hover {
+    font-style: italic;
+    color: gray;
+}
+
+.banner {
+    background-color: rgb(29, 29, 29);
+    height: 800px;
+    text-align: center;
+    color: rgb(246, 107, 107);
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 200px;
+    border: 6px solid white;
+    margin-top: 170px;
+
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    color: rgb(29, 29, 29);
+    background-color: rgb(246, 107, 107);
+    margin-top: 40px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    color: rgb(246, 107, 107);
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(246, 107, 107);
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 70px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+
+    50% {
+        content: 'Saya Wahyu Munawir';
+    }
+
+    100% {
+        content: 'Terimakasih Sudah Singgah!';
+    }
+}
+
+.box-pendidikan {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.box-kiri, .box-kiri1, .box-kanan1, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(246, 107, 107);
+    text-align: center;
+    padding: 40px 10px;
+    margin: 70px 10px 10px 45px;
+    float: left;
+    border-radius: 10px;
+}
+
+.box-kiri img {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.box-kiri1 img {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.box-kanan1 img {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.box-kanan img {
+    height: 150px;
+    border-radius: 50px;
+}
+
+.box-kiri:hover, .box-kiri1:hover, .box-kanan1:hover, .box-kanan:hover {
+    background-color: rgb(29, 29, 29);
+    color: rgb(246, 107, 107);
+}
+
+.box-pendidikan h3{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+.box-softskill {
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 550px;
+}
+
+.box-kontak {
+    text-align: center;
+    margin-top: 570px;
+    margin-bottom: 70px;
+}
+
+.box-kontak img{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: rgb(29, 29, 29);
+    color: rgb(246, 107, 107);
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+}
